@@ -1,0 +1,33 @@
+How did viewing a diff between two versions of a file help you see the bug that
+was introduced?
+
+    I could easily see what lines in the two documents differed from each other and therefore easier find potential typos or errors.
+
+How could having easy access to the entire history of a file make you a more
+efficient programmer in the long term?
+
+    After I've located potential typos or other bugs in my code. I can go back and reuse my old working code instead of having to write it all again.
+
+What do you think are the pros and cons of manually choosing when to create a
+commit, like you do in Git, vs having versions automatically saved, like Google
+docs does?
+
+    The cons of manually commiting is that you might forget to do it often enough. The pros of manually commiting is that you have full control of what is being saved and not for example a file where only half the intended changes have been made, which could happen with automatic save. The pros of automatic save is if you are forgetful and don't save often enough yourself.
+
+Why do you think some version control systems, like Git, allow saving multiple
+files in one commit, while others, like Google Docs, treat each file separately?
+
+   Google docs is not meant for coding and does not take into consideration files that may be linked to each other. GIT takes this into consideration.
+
+How can you use the commands git log and git diff to view the history of files?
+
+    With git log I can see what versions there are and comments on what changes have been made between the versions. With git diff I can see what lines in the code have been added/changed/removed compared to previous versions.
+
+How might using version control make you more confident to make changes that
+could break something?
+
+    It will always let me download a previous version of the code which I know is working. It can also help me to easier find where a bug is as I can see what has been changed compared to previous versions.
+
+Now that you have your workspace set up, what do you want to try using Git for?
+
+    For safe keeping of previous working versions of my documents and for finding bugs or changes to a document.
