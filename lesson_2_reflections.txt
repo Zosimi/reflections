@@ -4,3 +4,14 @@ What happens when you initialize a repository? Why do you need to do it?
 
 How is the staging area different from the working directory and the repository? What value do you think it offers?
 	It is a temporary area where you group the files you want to be included in the same commit. The working directory on the other hand includes all files in your local repository.
+
+
+How can you use the staging area to make sure you have one commit per logical change?
+	I can compare it with the previous commit as well as with my current working directory.
+
+What are some situations when branches would be helpful in keeping your history organized? How would branches help?
+	If I for example want to try an new feature that I am not sure will work or if I want to make any other experimental changes or for example change the language of the content. If it then turns out my changes did not work, I can easily go back to another working version.
+
+
+How do the diagrams help you visualize the branch structure?
+	It helps me see what commits are reachable or unreachable.
