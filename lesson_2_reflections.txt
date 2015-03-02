@@ -15,3 +15,23 @@ What are some situations when branches would be helpful in keeping your history 
 
 How do the diagrams help you visualize the branch structure?
 	It helps me see what commits are reachable or unreachable.
+
+
+What is the result of merging two branches together? Why do we represent it in the diagram the way we do?
+	New code that has been added to a branch will be added to the new merged branch. Older code that has been removed will also be removed from the new merged branch.
+	Code that is present in both branches will be present in the  new merged branch
+
+
+What are the pros and cons of Git’s automatic merging vs. always doing merges manually?
+	GIT
+		PROS: It saves time when merging together two pieces of code
+		CONS: You don't always know which version of a code should be transferred to the new merged code.
+
+	MANUAL
+		PROS: You have full control of the merge.
+		CONS: It takes longer and you may miss something that you added/removed in one of the files. May require rewriting of code.
+
+
+
+
+
